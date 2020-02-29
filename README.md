@@ -2,8 +2,7 @@
 Exploring natural language processing with Tensorflow 2.0
 
 These notebooks are based on the "Natural Language Processing with Tensorflow  2
-- Beginner's course" that can be found [here]
-(https://www.youtube.com/watch?v=B2q5cRJvqI8), which in turn is based on various
+- Beginner's course" that can be found [here](https://www.youtube.com/watch?v=B2q5cRJvqI8), which in turn is based on various
 official Tensorflow tutorials. The course consists of three parts: Word
 embeddings, sentiment analysis and text generation.
 
@@ -22,3 +21,13 @@ Euclidean distance are
 sensible for the most part. Notice that in the image above those words actually
 don't appear to be too closely connected at all, but this is due to this being a
 projection of the data onto the first three principal components.
+
+
+## Sentiment analysis
+
+The second part of the course is all about using an RNN for sentiment analysis
+and is based on (this)[https://www.tensorflow.org/tutorials/text/text_classification_rnn] tutorial.
+
+![](sentiment_prediction.png)
+
+The model performs reasonably well.
