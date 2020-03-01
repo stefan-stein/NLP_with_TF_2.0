@@ -1,4 +1,5 @@
 # NLP_with_TF_2.0
+
 Exploring natural language processing with Tensorflow 2.0
 
 These notebooks are based on the "Natural Language Processing with Tensorflow  2
@@ -10,7 +11,6 @@ embeddings, sentiment analysis and text generation.
 ## Word embeddings
 
 The first part deals with word embeddings and is based on [this](https://www.tensorflow.org/tutorials/text/word_embeddings) tutorial.
-Take a look at the `NLP_with_TF_2_0_word_embeddings.ipynb` file for the code.
 
 ![](Word_embeddings_superb.png)
 
@@ -31,3 +31,13 @@ and is based on (this)[https://www.tensorflow.org/tutorials/text/text_classifica
 ![](sentiment_prediction.png)
 
 The model performs reasonably well.
+
+## Text generation
+
+The third and last part of the course deals with text generation using an RNN.
+It is based on [this](https://www.tensorflow.org/tutorials/text/text_generation)
+official tensorflow tutorial.
+
+![](ROMEO_text_generation.png)
+
+Yeah... this is really deep.
