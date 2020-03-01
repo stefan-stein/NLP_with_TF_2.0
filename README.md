@@ -36,8 +36,16 @@ The model performs reasonably well.
 
 The third and last part of the course deals with text generation using an RNN.
 It is based on [this](https://www.tensorflow.org/tutorials/text/text_generation)
-official tensorflow tutorial.
+official tensorflow tutorial. The RNN generates text by predicting one character
+at a time.
 
 ![](ROMEO_text_generation.png)
 
 Yeah... this is really deep.
+
+But keep in mind that this RNN only predicts the next character given the
+previous characters. So initially it has no concept of what a word or a sentence
+is. With that in mind, it is rather impressive that even with a very simple
+model and a very short training period we can create actual words, i.e. we are
+able to place the word boundaries correctly. It also seems to know when to
+capitalize letters.
